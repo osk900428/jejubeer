@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="image/logo.png" alt=""></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#Brewery" onclick="toggleMenu();">Brewery</a></li>
+            <li><a href="#ALE" onclick="toggleMenu();">ALE</a></li>
+            <li><a href="#Goods" onclick="toggleMenu();">Goods</a></li>
+            <li><a href="#Camping" onclick="toggleMenu();">Camping</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <video muted playsinline autoplay loop>
+                <source src="image/jb_tvc_event_web.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="about" id="Brewery">
+        <div class="row">
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="image/1ce41a7ba1848.jpg" alt="">
+                </div>
+            </div>
+            <div class="col50 text-box">
+                <h2 class="titleText">Jeju Beer Brewery</h2>
+                <h3>새로운 양조문화를 빚는 곳,
+                    제주맥주 양조장입니다.</h3>
+                <p>제주맥주 양조장에서는
+                    우리나라에 없던 새로운 맥주 문화를 만들어가는 사람들,
+                    크래프트 맥주 컬쳐 크리에이터들이 모여
+                    제주맥주의 신선한 브랜드 경험을 전하고 있습니다.
+                    도슨트와 함께 양조장 투어를 하다보면
+                    맥주가 만들어지는 과정을 오감으로 체험하게 되고,
+                    맥주에 대해 알게 된 만큼,
+                    맥주를 더 맛있고 더 제대로 즐기는 법을 깨닫게 됩니다.
+                    맥주로 특별해지는 일상,
+                    이제 여기제주맥주 양조장에서 시작해보세요.
+                    </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="expert" id="ALE">
+        <div class="title">
+            <h2 class="titleText">Jeju ALE</h2>
+        </div>
+        <div class="content">
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                <div class="imgBx">
+                    <img src="image/cfe9d9816bb83.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주 펠롱 에일</h3>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="imgBx">
+                    <img src="image/afc5cf21c07b0.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주 거멍 에일</h3>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                <div class="imgBx">
+                    <img src="image/1813860403b70.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주 위트 에일</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="Goods">
+        <div class="title">
+            <h2 class="titleText">Merchandise</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/19ccdb3218523.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주맥주 전용 잔</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/813f23fd2cd95.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주를 담은 감귤칩</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/2dab7f6879b83.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주맥주 조약돌 화투</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/e425f5f260c9a.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>제주에서 만난 찹쌀 김부각</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+
+    <section class="camping" id="Camping">
+        <div class="title">
+            <h2 class="titleText">Experience</h2>
+            <p>나를 닮은 나만의 캠핑카!</p>
+        </div>
+        <div class="camping-img">
+            <p>당신의 일상을,<br>더 특별한 순간으로</p>
+        </div>
+    </section>
+
+    <section class="item">
+        <p>제주맥주가 ‘나’를 위해
+            준비한 세 가지 아이템</p>
+        <div class="camping-item">
+            <img src="image/b3586e2d3e593.jpg" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+            <img src="image/962c0230a244a.png" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <img src="image/883dc0b0f2c2d.png" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2020 <a href="#">제주맥주</a>. All Right Reserved</p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+         const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+    function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+
+    AOS.init();
+    </script>
+</body>
+</html>
